@@ -5,6 +5,8 @@
 (load "./Aguia/ag_psla.lsp")
 (load "./Aguia/ag_pdla.lsp")
 (load "./Aguia/ag_pra.lsp")
+(load "./Aguia/ag_psrm.lsp")
+(load "./Aguia/ag_pdrm.lsp")
 
 (princ
     (strcat
