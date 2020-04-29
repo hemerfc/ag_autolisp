@@ -168,7 +168,7 @@
   ;; (eval (read var_name)) read from var
   ;; (set (read var_name) x) write x on var 
 
-  (if (null (eval (read var_name))) (set (read var_name) 2000))
+  (if (null (eval (read var_name))) (set (read var_name) 720))
   (setq msg (strcat "\n" name " <" (itoa (eval (read var_name))) ">: "))
   (initget 4)
   (if (setq comp (getint msg))

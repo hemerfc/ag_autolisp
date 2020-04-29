@@ -5,7 +5,7 @@
 (defun ag:Pdrm (n passo comp_ant comp_port1 comp_port2 comp_post vel cor point ang / larg rect blockname)
 
   (setq blockname (CreateBlkName
-                    (list "PSRM"
+                    (list "PDRM"
                           (itoa n)
                           (itoa passo)
                           (itoa comp_ant)
